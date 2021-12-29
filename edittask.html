@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task</title>
+</head>
+<body>
+    <h3>Edit Task</h3>
+    <form>
+        <label for="name">Task Name</label>
+        <input type="text" name="name" id="name" required autofocus placeholder="Enter the task name" value="Install JDK 16">
+        <br/>
+        <label for="status">Status</label>
+        <!-- <input type="text" name="status" id="status" required> -->
+        <select name="status" id="status">
+            <option value="P">PENDING</option>
+            <option value="C">COMPLETED</option>
+        </select>
+        <br/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
