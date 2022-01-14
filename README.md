@@ -13,3 +13,5 @@
 
 ##### Feature #5: Edit Task
 
+##### Feature #6: Delete Task
+
